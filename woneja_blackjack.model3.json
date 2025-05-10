@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "woneja_BLACKJACK.moc3",
+		"Textures": [
+			"woneja_BLACKJACK.4096/texture_00.png"
+		],
+		"Physics": "woneja_BLACKJACK.physics3.json",
+		"DisplayInfo": "woneja_BLACKJACK.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
