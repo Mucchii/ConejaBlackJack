@@ -69,11 +69,11 @@
 	"HitAreas": [
 		{
 			"Id": "HitArea_Head",
-			"Name": ""
+			"Name": "HitArea_Head"
 		},
 		{
 			"Id": "HitArea_Chest",
-			"Name": ""
+			"Name": "HitArea_Chest"
 		}
 	]
 }
