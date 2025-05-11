@@ -1,0 +1,83 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "woneja_BLACKJACK.moc3",
+		"Textures": [
+			"woneja_BLACKJACK.4096/texture_00.png"
+		],
+		"Physics": "woneja_BLACKJACK.physics3.json",
+		"DisplayInfo": "woneja_BLACKJACK.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Hungry",
+				"File": "expressions/Hungry.exp3.json"
+			},
+			{
+				"Name": "crying1",
+				"File": "expressions/crying1.exp3.json"
+			},
+			{
+				"Name": "crying2",
+				"File": "expressions/crying2.exp3.json"
+			},
+			{
+				"Name": "happy",
+				"File": "expressions/happy.exp3.json"
+			},
+			{
+				"Name": "relaxed",
+				"File": "expressions/relaxed.exp3.json"
+			},
+			{
+				"Name": "scared",
+				"File": "expressions/scared.exp3.json"
+			},
+			{
+				"Name": "smug",
+				"File": "expressions/smug.exp3.json"
+			},
+			{
+				"Name": "super_happy",
+				"File": "expressions/super_happy.exp3.json"
+			},
+			{
+				"Name": "neutral",
+				"File": "expressions/neutral.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/Idle.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea_Head",
+			"Name": "HitArea_Head"
+		},
+		{
+			"Id": "HitArea_Chest",
+			"Name": "HitArea_Chest"
+		}
+	]
+}
