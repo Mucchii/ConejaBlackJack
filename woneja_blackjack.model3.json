@@ -43,6 +43,18 @@
 			{
 				"Name": "neutral",
 				"File": "expressions/neutral.exp3.json"
+			},
+				{
+				"Name": "shy",
+				"File": "expressions/shy.exp3.json"
+			},
+			{
+				"Name": "shy2",
+				"File": "expressions/shy2.exp3.json"
+			},
+			{
+				"Name": "shy_mad",
+				"File": "expressions/shy_mad.exp3.json"
 			}
 		],
 		"Motions": {
